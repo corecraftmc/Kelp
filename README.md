@@ -1,1 +1,1 @@
-# A boredom fork called Kelp made for no reason other then half time entertainment.
+# A boredom fork called Kelp made for no reason other than half time entertainment.
