@@ -1,1 +1,1 @@
-# A fork of Purpur used for @corecraftMC
+A personalized fork of Purpur used for CoreCraft
