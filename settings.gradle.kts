@@ -24,13 +24,14 @@ if (!file(".git").exists()) {
          for further information on building and modifying Kelp.
         ===================================================
     """.trimIndent()
+
     error(errorText)
 }
 
 rootProject.name = "Kelp"
 
 for (name in listOf("Kelp-API", "Kelp-Server")) {
-    val projName = name.toLowerCase(Locale.ENGLISH)
-    include(projName)
-    findProject(":$projName")!!.projectDir = file(name)
+    val projectName = name.lowercase(Locale.ENGLISH)
+    include(projectName)
+    findProject(":$projectName")!!.projectDir = file(name)
 }
