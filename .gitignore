@@ -1,5 +1,9 @@
 .gradle
+.idea
 
 # The project files
 Kelp-API
 Kelp-Server
+
+buildSrc/.gradle
+buildSrc/build
