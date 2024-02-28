@@ -5,11 +5,30 @@ pluginManagement {
         maven("https://repo.papermc.io/repository/maven-public/")
 
         gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        maven("https://repo.papermc.io/repository/maven-public/")
+
+        gradlePluginPortal()
+        mavenCentral()
+    }
+
+    versionCatalogs {
+        create("libs") {
+            library("asm-commons", "org.ow2.asm", "asm-commons").version("9.5")
+
+            library("simpleyaml", "com.github.Carleslc.Simple-YAML", "Simple-Yaml").version("1.8.4")
+            library("snakeyaml", "org.yaml", "snakeyaml").version("2.2")
+        }
     }
 }
 
 plugins {
-    id("org.gradle.toolchains.foojay-resolver-convention") version "0.4.0"
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
 
 if (!file(".git").exists()) {
