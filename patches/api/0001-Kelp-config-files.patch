@@ -5,10 +5,10 @@ Subject: [PATCH] Kelp config files
 
 
 diff --git a/src/main/java/org/bukkit/Server.java b/src/main/java/org/bukkit/Server.java
-index aaef58468a3c31f35e5067ed4263e9dd3fbddddd..414fc9220a181b82abdd0d2070dd6b689bfa99a8 100644
+index be0e4c789a02d67160287c39cf6bdf8ef2229afc..45cdcae75760e6ce1516882731eb55fe6c5b8b42 100644
 --- a/src/main/java/org/bukkit/Server.java
 +++ b/src/main/java/org/bukkit/Server.java
-@@ -2133,6 +2133,13 @@ public interface Server extends PluginMessageRecipient, net.kyori.adventure.audi
+@@ -2226,6 +2226,13 @@ public interface Server extends PluginMessageRecipient, net.kyori.adventure.audi
          }
          // Purpur end
  
