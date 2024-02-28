@@ -8,4 +8,8 @@ Kelp-Server
 buildSrc/.gradle
 buildSrc/build
 
+build
+
+run
+
 paper-api-generator
